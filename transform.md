@@ -51,3 +51,17 @@
 ### transform多重效果
 1. transform:scale(0.5) translate(-100%,-100%);
 2. transform:none;取消所有
+
+
+
+## transition过渡
+* 作用-补充关键帧
+* 语法
+
+1. transition:属性名 时长 过渡方式 延迟
+2. transition: left 200ms linear
+3. 可以用逗号分隔两个个不同的属性;
+4. transition:left 200ms,top 400ms;
+5. 可以用all代表所有属性
+6. transition:all 200ms;
+7. 过渡方式有: 
